@@ -10,7 +10,7 @@ mongoose.connect('mongodb://192.168.222.132:27017/imooc')
 
 app.set('views','./views/pages')
 app.set('view engine','jade')
-// parse application/x-www-form-urlencoded 
+// parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
